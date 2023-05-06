@@ -38,8 +38,8 @@ h6{
 
 /* botones sobre imagen */
 .botones{
-    padding-left: 10%;
-    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -113,6 +113,11 @@ width: 300px;
     padding: 15px;
 }
 
+@media (max-width: 575.9px){
+    .texto{
+        font-size: 5px;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767.9px){
     .texto{
